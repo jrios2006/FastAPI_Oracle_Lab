@@ -1,0 +1,6 @@
+driver_version,workers,concurrency,requests,oracle_sleep_seconds,count,run_ids,wall_median_s,p95_median_ms,p95_mean_ms,p95_stdev_ms,pool_wait_max_ms,peak_sessions_max,zero_sessions_final,all_http_ok
+26.1.0,2,4,12,3.0,2,"['LAB_T06_20261030_A', 'LAB_T06_20261030_B']",9.268,3175.475,3175.475,144.58212354921355,205.37,5,1,True
+26.1.0,2,8,24,3.0,1,['LAB_T06_20261030_C'],9.515,3435.75,3435.75,,365.58,9,1,True
+26.1.0,2,12,24,3.0,1,['LAB_T06_20261030_D'],9.506,6220.31,6220.31,,3182.94,10,1,True
+26.1.0,4,12,24,3.0,1,['LAB_T06_20261030_E'],9.406,5973.94,5973.94,,3082.79,15,1,True
+26.1.0,8,12,24,3.0,1,['LAB_T06_20261030_F'],6.551,3374.11,3374.11,,259.06,18,1,True

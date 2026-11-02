@@ -1,0 +1,7 @@
+run_id,ronda,workers_configurados,driver_version,concurrency_http,requests,successful,failed,oracle_sleep_seconds,wall_seconds,http_p95_ms,max_reported_pool_wait_ms,peak_total_sessions,peak_active_sessions,peak_inactive_sessions,last_valid_sample_sessions,peak_opened_observed,peak_busy_observed,workers_observed,samples_ok,samples_error,status,source_path
+LAB_T06_20261030_A,A,2,26.1.0,4,12,12,0,3.0,9.366,3277.71,205.37,5,4,5,5,4,4,2,130,0,INCONCLUSO_O_REVISAR,data/t06_historico/LAB_T06_20261030_A/report.json
+LAB_T06_20261030_B,B,2,26.1.0,4,12,12,0,3.0,9.17,3073.24,1.64,5,4,5,0,3,3,2,240,0,APTO_PRELIMINAR,data/t06_historico/LAB_T06_20261030_B/report.json
+LAB_T06_20261030_C,C,2,26.1.0,8,24,24,0,3.0,9.515,3435.75,365.58,9,8,9,0,5,5,2,240,0,APTO_PRELIMINAR,data/t06_historico/LAB_T06_20261030_C/report.json
+LAB_T06_20261030_D,D,2,26.1.0,12,24,24,0,3.0,9.506,6220.31,3182.94,10,10,10,0,5,5,2,240,0,APTO_PRELIMINAR,data/t06_historico/LAB_T06_20261030_D/report.json
+LAB_T06_20261030_E,E,4,26.1.0,12,24,24,0,3.0,9.406,5973.94,3082.79,15,11,15,0,5,5,4,240,0,APTO_PRELIMINAR,data/t06_historico/LAB_T06_20261030_E/report.json
+LAB_T06_20261030_F,F,8,26.1.0,12,24,24,0,3.0,6.551,3374.11,259.06,18,12,18,0,3,3,8,240,0,APTO_PRELIMINAR,data/t06_historico/LAB_T06_20261030_F/report.json

@@ -1,0 +1,22 @@
+# FastAPI_Oracle_Lab - Dependencias de instalacion inicial (F2)
+# Requiere Python >= 3.10; recomendado igualar la version del backend real.
+# Los rangos NO son un lockfile: registrar versiones efectivas con pip freeze.
+# Antes de comparar OracleClient 1.6.2 con el backend original, igualar
+# exactamente la version de oracledb y anotar el modo Thin/Thick.
+
+# Aplicacion y servidores
+fastapi>=0.116,<1.0
+uvicorn>=0.35,<1.0
+gunicorn>=23,<27
+uvicorn-worker>=0.4,<1.0
+
+# Oracle (el import de este paquete es "oracledb")
+oracledb>=3.3,<27
+
+# Dependencia del ConfigLoader original
+charset-normalizer>=3.3,<4
+
+# Observabilidad de procesos y pruebas HTTP
+psutil>=6,<9
+httpx>=0.28,<1
+pytest>=8,<10

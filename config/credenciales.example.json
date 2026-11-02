@@ -1,0 +1,16 @@
+{
+  "LAB_API": {
+    "servidor": "HOST_ORACLE",
+    "puerto": 1521,
+    "database": "SCS",
+    "usuario": "USUARIO_LABORATORIO",
+    "password": "REEMPLAZAR_LOCALMENTE"
+  },
+  "LAB_MONITOR": {
+    "servidor": "HOST_ORACLE",
+    "puerto": 1521,
+    "database": "SCS",
+    "usuario": "USUARIO_MONITOR_LECTURA",
+    "password": "REEMPLAZAR_LOCALMENTE"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "run_id": "LAB_T06_20261030_B",
+  "generated_utc": "2026-10-30T18:23:18.486983+00:00",
+  "status": "APTO_PRELIMINAR",
+  "http": {
+    "run_id": "LAB_T06_20261030_B",
+    "started_utc": "2026-10-30T18:19:57.588+00:00",
+    "completed_utc": "2026-10-30T18:20:06.754+00:00",
+    "requests": 12,
+    "concurrency_http": 4,
+    "oracle_sleep_seconds": 3.0,
+    "successful": 12,
+    "failed": 0,
+    "wall_seconds": 9.17,
+    "http_p95_ms": 3073.24,
+    "max_reported_pool_wait_ms": 1.64,
+    "requests_by_pid": {
+      "522735": 7,
+      "522776": 5
+    },
+    "nota": "Concurrencia HTTP != conexiones busy; correlacionar con oracle_totals.csv y pool_samples.csv"
+  },
+  "oracle": {
+    "samples_ok": 240,
+    "samples_error": 0,
+    "peak_total_sessions": 5,
+    "peak_active_sessions": 4,
+    "peak_inactive_sessions": 5,
+    "last_valid_sample_sessions": 0,
+    "max_sessions_by_pid": {
+      "522735": 3,
+      "522776": 2
+    },
+    "oracle_concurrent_observed": true
+  },
+  "pools_http": {
+    "workers_observed": 2,
+    "peak_opened_observed": 3,
+    "peak_busy_observed": 3,
+    "pool_max_configured_per_worker": 5,
+    "violations": [],
+    "per_worker_oracle_session_violations": {}
+  },
+  "caveats": [
+    "APTO_PRELIMINAR solo valida las muestras de esta campana; no certifica estabilidad prolongada.",
+    "La ultima muestra con 0 sesiones no garantiza ausencia de sesiones futuras.",
+    "Los workers que no respondieron /diagnostics/pool pueden quedar sin medir en opened/busy.",
+    "La concurrencia HTTP y Oracle pueden diferir; Oracle ACTIVE es una muestra puntual.",
+    "DBMS_SESSION.SLEEP no reproduce la carga de consultas/servicios reales."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "laboratorio": {
+    "nombre": "FastAPI_Oracle_Lab",
+    "entorno": "desarrollo",
+    "version_configuracion": "1.0"
+  },
+  "servidor": {
+    "modo": "uvicorn",
+    "host": "127.0.0.1",
+    "puerto": 8010,
+    "workers": 1
+  },
+  "oracle": {
+    "pool_min": 0,
+    "pool_max": 5,
+    "increment": 1,
+    "timeout": 60,
+    "retry": 1,
+    "getmode": "WAIT",
+    "wait_timeout": 30
+  },
+  "identificadores": {
+    "app_name": "FastAPI_Oracle_Lab",
+    "client_identifier_base": "LAB_POOL_API",
+    "monitor_identifier": "LAB_POOL_MONITOR"
+  },
+  "monitorizacion": {
+    "intervalo_muestreo_segundos": 10,
+    "reposo_segundos": 180,
+    "identificar_por_pid": true
+  },
+  "logging": {
+    "nivel": "INFO",
+    "archivo_base": "logs/app.log",
+    "max_bytes": 5242880,
+    "backup_count": 5,
+    "consola": true
+  },
+  "salidas": {
+    "informes": "reports",
+    "sesiones": "reports/sesiones",
+    "rendimiento": "reports/rendimiento",
+    "resultados": "reports/resultados"
+  }
+}

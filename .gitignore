@@ -1,0 +1,48 @@
+
+# ==========================================
+# FastAPI_Oracle_Lab - Git ignore
+# ==========================================
+
+# Credenciales y secretos
+/config/credenciales*.json
+!/config/credenciales.example.json
+.env
+.env.*
+!.env.example
+
+# Entornos virtuales Python
+.venv/
+venv/
+env/
+
+# Archivos generados por Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Pruebas y herramientas
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Logs y resultados de pruebas
+/logs/
+/reports/
+*.log
+
+# Empaquetado Python
+build/
+dist/
+*.egg-info/
+
+# Archivos temporales y editores
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
